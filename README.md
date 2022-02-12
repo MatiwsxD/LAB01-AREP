@@ -33,6 +33,3 @@ En el backend se tiene una clase que es la encargada de hacer los calculos, lueg
 El repositorio de descarga es:https://github.com/MatiwsxD/LAB01-AREP.git
 Link de la app: https://hidden-caverns-65840.herokuapp.com/
 
-
-> El programa funciona hasta donde el fron en javascript recibe el .JSON con la respuesta
->pero no pude mostrarlo en el HTML por un error de formato.
