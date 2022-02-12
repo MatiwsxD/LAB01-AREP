@@ -6,7 +6,7 @@ var fConnect = (function(){
 
         connection : function(name, numero){
             var url = 'http://localhost:4567/convertir/' + name + '/' + numero
-            var heroku = 'https://hidden-caverns-65840.herokuapp.com/'+ name + '/' + numero
+            var heroku = 'https://hidden-caverns-65840.herokuapp.com/convertir/'+ name + '/' + numero
 
                         fetch(heroku, {
                             mode: 'no-cors',
