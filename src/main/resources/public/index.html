@@ -1,26 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title> Conversor de Temperatura </title>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="fConnect.js"> </script>
+    <link href="styles/style.css" rel="stylesheet">
 </head>
 <body>
+<form class="Title">
+    <center>
+        <h2> Calculadora de grados Celcius a fahrenheit y viceversa</h2>
+    </center>
 
-<span id="TipoTemp"> ¿Que desea convertir? </span>
-<span id="Intructionc"> C si desea C---> F </span>
-<span id="IntructionF"> F si desea F---> C </span>
-<br>
-<input type="text" id = "name">
-<br>
-<span id="valor"> Valor </span>
-<br>
-<input type="text" id = "ingresado">
-<br><br>
-<button type="button" onclick="fConnect.connection( $('#name').val(),$('#ingresado').val())">Calcular!</button>
-<br><br>
-<span id="respuesta"> Resultado </span>
+
+</form>
+<form class = dataText >
+    <span id="TipoTemp"> ¿Que desea convertir? </span><br>
+    <span id="Intructionc"> C si desea C---> F </span><br>
+    <span id="IntructionF"> F si desea F---> C </span><br>
+
+</form>
+
+<div class="contenedor">
+    <form class =  inputLabels>
+        <br>
+        <input type="text" id = "name" placeholder="Ingrece el 'C' o 'L'">
+        <br>
+        <span id="valor"> Valor </span>
+        <br>
+        <input type="text" id = "ingresado"placeholder="Ingrece la cantidad'">
+        <br><br>
+        <button type="button" onclick="fConnect.connection( $('#name').val(),$('#ingresado').val())">Calcular!</button>
+        <br><br>
+        <span id="respuesta"> Resultado </span>
+    </form>
+</div>
+
+
+
+
 
 </body>
 </html>

@@ -2,7 +2,7 @@ package edu.escuelaing.arep;
 
 public class Convert {
 
-    public  Convert () {
+    public Convert () {
     }
     public  String celToFa(Float cantidad){
         Float fahrenheit = cantidad*9/5 +32 ;
